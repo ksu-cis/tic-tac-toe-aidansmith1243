@@ -18,6 +18,7 @@ body {
 	font-size: 90px;
 	text-align: center;
 	color: purple;
+
 }
 /* Carousel */
 .carousel-caption p {
@@ -46,4 +47,26 @@ body {
 	display: grid;
 	grid-template-columns: 100px 100px 100px;
 	grid-template-rows: 1fr 1fr 1fr;
+}
+.row{
+	display: flex;
+	width: 302px;
+}
+
+.row:nth-child(3){
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.square-2{
+	
+	width: 100px;
+	height: 100px;
+	font-size: 90px;
+	text-align: center;
+	color: purple;
+	display: inline;
+}
+.square-2:nth-child(2n){
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
